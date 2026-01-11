@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashaun Lofton's CV</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+        <a href="#education" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">EDUCATION</a>
+        <a href="#employment" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">EMPLOYMENT</a>
+        <a href="#internships" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">INTERNSHIPS</a>
+        <a href="#licenses" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">LICENSES & CERTIFICATIONS</a>
+        <a href="#projects" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">PROJECTS</a>
+        <a href="#skills" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">SKILLS</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="avatar.jpg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/dashaun-lofton/" target="_blank">
+            <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="Dashaun_Lofton-Resume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="Dashaun Lofton's-Resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD RESUME</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-hide-small" style="border-width: 2px !important;">CURRICULUM VITAE</a>
+          <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#education" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">EDUCATION</a>
+          <a href="#employment" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">EMPLOYMENT</a>
+          <a href="#internships" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">INTERNSHIPS</a>
+          <a href="#licenses" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-hover-text-green w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">LICENSES & CERTIFICATIONS</a>
+          <a href="#projects" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">PROJECTS</a>
+          <a href="#skills" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">SKILLS</a> 
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <h1>Dashaun Lofton</h1>
+            <p style="font-style: italic; font-size:x-large;">"You don't need to be perfect. You just need to do the best you can."</p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-10-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+              Graduated from SUNY University at Albany, with a degree in Informatics.
+              Currently pursuing a career into the field of Data Analytics. Dashaun
+              Lofton is someone who's unique experience is a mix of working with
+              both people and technology.
+            </p>
+            <p class="">
+              Although I always strive to be the best, I
+              always try to remember that mistakes are part
+              of the process. Even when I fail, I learn from
+              my the experience to become even better than before. 
+          </div>
+
+          <!--Employment History-->
+          <div id="employment" class="w3-container w3-margin-top-15-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Employment History</h2>
+            <h3 class="w3-border-amber">Grocery Store Clerk</h3>
+            
+            <div class="row">
+              <span><b>Employer: </b> <i>Stop & Shop</i></span>
+              <span><b>Date: </b> <i>March 2022 - Present</i></span>
+            </div>
+            <style>
+              .row{
+                display: flex;
+                justify-content: space-between;
+                font-size: large;
+              }
+            </style>
+                        
+            <p><b>Location: </b> <i>Holbrook, NY</i></p>
+            <ul>
+              <li>Scanning products customers wish to purchase.</li>
+              <li>Observe customers in the self-checkout area and provide any necessary assistance.</li>
+            </ul>
+
+            <h3 class="w3-border-amber">Student Library Assistant</h3>
+            
+            <div class="row">
+              <span><b>Employer: </b> <i>SUNY Albany</i></span>
+              <span><b>Date: </b> <i>September 2021 - December 2021</i></span>
+            </div>
+            <style>
+              .row{
+                display: flex;
+                justify-content: space-between;
+              }
+            </style>
+            
+            <p><b>Location: </b> <i>Albany, NY</i></p>
+            <ul>
+              <li>Reorganizing book inventory in storage area based on database's barcode categorization.</li>
+              <li>Scan books into an online inventory database.</li>
+            </ul>
+
+            <h3 class="w3-border-amber">Phone Operator</h3>
+            <div class="row">
+              <span><b>Employer: </b> <i>Reliable Taxi</i></span>
+              <span><b>Date: </b> <i>May 2021 - August 2021</i></span>
+            </div>
+            <style>
+              .row{
+                display: flex;
+                justify-content: space-between;
+              }
+            </style>
+
+            <p><b>Location: </b> <i>Islandia, NY</i></p>
+            <ul>
+              <li>Addressed incoming phone calls and questions from customers asking for a cab.</li>
+              <li>Calculated the daily amount of money drivers would make.</li>
+              <li>Managed medical account calls for customers going to and from hospitals.</li>
+            </ul>
+
+            <h3 class="w3-border-amber">Data Entry Intern</h3>
+            <div class="row">
+              <span><b>Employer: </b> <i>Curtiss-Wright Corporation</i></span>
+              <span><b>Date: </b> <i>July 2018 - August 2019</i></span>
+            </div>
+            <style>
+              .row{
+                display: flex;
+                justify-content: space-between;
+              }
+            </style>
+
+            <p><b>Location: </b> <i>Farmingdale, NY</i></p>
+            <ul>
+              <li>Converted hard copy files into digital files into company shared drive.</li>
+              <li>Aided senior employees in office and stockroom management tasks.</li>
+              <li>Organized machine parts in stockroom.</li>
+              <li>Created and edited Microsoft Word and Excel files for office management.</li>
+            </ul>
+
+            <h3 class="w3-border-amber">Phone Operator</h3>
+            <div class="row">
+              <span><b>Employer: </b> <i>Lindy's Taxi</i></span>
+              <span><b>Date: </b> <i>July 2017 - July 2018</i></span>
+            </div>
+            <style>
+              .row{
+                display: flex;
+                justify-content: space-between;
+              }
+            </style>
+
+            <p><b>Location: </b> <i>Amityville, NY</i></p>
+            <ul>
+              <li>Addressed incoming phone calls and questions from customers asking for a cab.</li>
+              <li>Calculated the daily amount of money drivers would make.</li>
+              <li>Managed medical account calls for customers going to and from hospitals.</li>
+            </ul>
+          </div>
+
+          <!--Projects-->
+          <div id="projects" class="w3-container w3-margin-top-15-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Projects</h2>
+            <h3 class="w3-border-amber">Curriculum Viate Building</h3>
+            <p><b>Date: </b><i> 2025 - January 2026</i></p>
+            <p><b>Description: </b>Goal of this project was 
+            to take, what I call, the "Master Copy" of my 
+            resume and turn it into a website. This way 
+            employers can view my full employment history.</p>
+            <h4>Skills:</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+          </div>
+
+          <!--Academic Experience-->
+          <div id="internships" class="w3-container w3-margin-top-15-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Academic Internships</h2>
+            <h3 class="w3-border-amber">Tech-Based Intern</h3>
+            <div class="row">
+              <span><b>Employer: </b> <i>SUNY Albany</i></span>
+              <span><b>Date: </b> <i>Feburary 2021 - December 2021</i></span>
+            </div>
+            <style>
+              .row{
+                display: flex;
+                justify-content: space-between;
+              }
+            </style>
+
+            <p><b>Location: </b> <i>Albany, NY</i></p>
+            <ul>
+              <li>Assisted as help guide for technology companies attending the New York Celebration of Women in Computing (NYCWiC)</li>
+              <li>Researched other universities about esports clubs/teams</li>
+              <li>Ran simulations on how to operate drones and different types of trains</li>
+              <li>Created response-based survey questions on Qualtrics</li>
+              <li>Researched and taught others on how to operate drones</li>
+              <li>Provide assistance on how to operate tools and machinery in a makerspace</li>
+            </ul>
+
+            <h3 class="w3-border-amber">Senior Capstone Informatics Intern</h3>
+            <div class="row">
+              <span><b>Employer: </b> <i>SUNY Albany</i></span>
+              <span><b>Date: </b> <i>Feburary 2021 - May 2021</i></span>
+            </div>
+            <style>
+              .row{
+                display: flex;
+                justify-content: space-between;
+              }
+            </style>
+            
+            <p><b>Location: </b><i>Albany, NY</i></p>
+            <ul>
+              <li>Worked with a group to manage a database for a mobile web app</li>
+              <li>Edited and organized database diagram to properly set the layout of the database</li>
+              <li>Performed some programming to allow the database and the webpage to communicate </li>         
+            </ul>
+          </div>
+
+          <!--Education-->
+          <div id="education" class="w3-container w3-margin-top-15-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Education History</h2>
+            <h3 class="w3-border-amber">SUNY University at Albany</h3>
+            <div class="row">
+              <span><b>Degree: </b> <i>Bachelors</i></span>
+              <span><b>Graduation Date: </b> <i>December 2021</i></span>
+            </div>
+            <style>
+              .row{
+                display: flex;
+                justify-content: space-between;
+              }
+            </style>
+            
+            <p><b>Location: </b><i>Albany, NY</i></p>
+            <h4>Coursework:</h4>
+            <ul>
+                <li>Digital Game Design Develop I</li>
+                <li>Probability and Statistics for Data Analytics</li>
+                <li>Digital Project Management</li>
+                <li>Analysis, Visualization, and Prediction in Analytics</li>
+                <li>Introduction to Data Analytics</li>
+                <li>Programming for Informatics</li> 
+                <li>Research Methods Informatics</li> 
+                <li>Intro to Data & Databases</li>
+                <li>Emerging Trends Info & Tech</li>
+                <li>Interm Special Topics INF</li>
+                <li>Information in 21st Century</li>
+                <li>Programming for Problem Solving</li>
+                <li>Intro to Web Technologies</li>
+                <li>Intro to Networks and Systems</li>
+            </ul>
+
+            <p><b>Awards:</b> <i>Dean's List of Distinguished Students</i></p>
+            <ul>
+              <li>Within the award semester, matriculated students must have completed at UAlbany a minimum of 12 graduation credits in courses graded A–E, with no grade lower than a C, and with no incomplete (I) grades.</li>
+            </ul>
+
+            <h3>Connetquot High School</h2>
+            <div class="row">
+              <span><b>Degree: </b> <i>High Scool Degree</i></span>
+              <span><b>Graduation Date: </b> <i>June 2017</i></span>
+            </div>
+            <style>
+              .row{
+                display: flex;
+                justify-content: space-between;
+              }
+            </style>
+          </div>
+
+          <!--Licenses-->
+          <div id="licenses" class="w3-container w3-margin-top-15-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Licenses & Certifications</h2>
+            <h3 class="w3-border-amber">CompTIA Data+</h3>
+            <h4>Skills:</h4>
+            <ul>
+              <li>Data Concepts and Environments</li>
+              <li>Data Acquisition and Preparation</li>
+              <li>Data Analysis</li>
+              <li>Visualization and Reporting</li>
+              <li>Data Governance</li>
+            </ul>
+          </div>
+
+          <!--Skills-->
+          <div id="skills" class="w3-container w3-margin-top-15-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Skills</h2>
+            <h3>Technical Skills:</h3>
+            <ul>
+              <li>Gather</li>
+              <li>KNIME</li>
+              <li>Microsoft Excel</li>
+              <li>Microsoft PowerPoint</li>
+              <li>Microsoft Word</li>
+              <li>Python</li>
+              <li>Qualtrics</li>
+              <li>Slack</li>
+              <li>Tableu</li>
+              <li>Trello</li>
+              <li>Twine</li>
+            </ul>
+            <h3>Soft Skills:</h3>
+            <ul>
+              <li>Well Organized</li>
+              <li>Multi-tasking</li>
+              <li>Clear Communication</li>
+              <li>Quick Learner</li>
+              <li>Team Player</li>
+            </ul>
+          </div>
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-15-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Contact Details</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Dashaun Lofton</p>
+              <p>Adress: 408 Pine Creek Road, Holbrook NY 11741</p>
+              <p>Phone number: +16316824644</p>
+              <p>E-mail: <a href="mailto:loftond91@gmail.com">loftond91@gmail.com</a></p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2025 - Dashaun Lofton</p>
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
